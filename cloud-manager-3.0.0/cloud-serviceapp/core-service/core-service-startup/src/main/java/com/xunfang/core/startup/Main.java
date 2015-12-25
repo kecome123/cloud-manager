@@ -22,7 +22,7 @@ System.out.println("core-service已启动.......");
 		String str = "";
 		while(true) {
 			str = br.readLine();     
-			if(str.equals("xuke")) {      // 输入xuke退出
+			if(str.equals("xuke")) {      // 输入xuke退出 rtrter
 				context.close();
 				break;
 			}
