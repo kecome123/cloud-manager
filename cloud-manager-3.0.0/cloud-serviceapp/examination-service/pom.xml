@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.xunfang.cloud</groupId>
+    <artifactId>cloud-serviceapp</artifactId>
+    <version>3.0.0-SNAPSHOT</version>
+  </parent>
+  <artifactId>examination-service</artifactId>
+  <name>${project.artifactId}</name>
+  <packaging>pom</packaging>
+  <dependencies>
+    
+  </dependencies>
+  
+  <modules>
+  	<module>examinationModel</module>
+  	<module>examinationDao</module>
+  	<module>examinationDaoImpl</module>
+  	<module>examinationService</module>
+  	<module>examinationServiceImpl</module>
+  	<module>examination-service-startup</module>
+  </modules>
+</project>
